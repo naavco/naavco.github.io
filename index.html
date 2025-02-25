@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> شرکت ناوکو</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/img/icon/naav.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/style_preload.css">
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="pre-container">
+                <div class="logo-circle">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                         y="0px" width="30px" height="30px" viewbox="0 0 30 30" enable-background="new 0 0 30 30"
+                         xml:space="preserve">
+                    <path fill="#FFFFFF"
+                          d="M2.956,28.493L15.041,0.933l12.082,27.561h-4.406l-0.891-2.183H8.291l-0.927,2.183H2.956z M9.746,22.776              h10.586l-5.291-12.632L9.746,22.776z">
+                    </path>
+                    </svg>
+                </div>
+                <div class="loading-text">
+                    <p>Loading&#8230;</p>
+                </div>
+            </div>
+            <div id="container">
+                <div id="BK"></div>
+                <a id="logo_main" href="#"></a>
+                <a id="icon_apart" href="https://www.aparat.com/naavco"></a>
+                <a id="icon_linkden" href="https://www.linkedin.com/in/naavco"></a>
+                <a id="icon_insta" href="https://www.instagram.com/naavco"></a>
+                <a id="icon_mail" href="mailto:naav.co.ir"></a>
+
+                <a id="best_offer" href="# ">
+                    <p> پیشنهاد ویژه</p>
+                </a>
+
+                <a id="main_btn_1" href="# ">
+                    <p> خانه </p>
+                </a>
+
+                <a id="main_btn_2" href="# ">
+                    <p>  درباره ما </p>
+                </a>
+
+                <a id="main_btn_3" href="# ">
+                    <p> محصولات </p>
+                </a>
+
+                <a id="main_btn_4" href="# ">
+                    <p> خدمات </p>
+                </a>
+
+                <a id="main_btn_5" href="# ">
+                    <p> تماس با ما </p>
+                </a>
+
+                <div id="QR_mark"></div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div id="logo_Fa"> </div>
+                        <div id="company_Text"> </div>
+                        <div id="company_Text_litt">
+                            <p>شرکت مهندسی ناو افراز (ناوکو) با بیش از یک دهه فعالیت در زمینه فروش، نصب و خدمات پس از فروش
+                                درب
+                                اتوماتیک شیشه ای، درب ضد حریق و سیستم های کنترل تردد توانسته است ....</p>
+                        </div>
+
+                        <div class="buttons_01">
+
+                            <a href="#"> <button class="btn-hover color-1">بیشتر بخوانید</button> </a>
+
+                        </div>
+
+
+                        <div id="animation_container"
+                             style="background-color:rgba(255, 255, 255, 1.00); width:700px; height:550px">
+                            <canvas id="canvas" width="700" height="550"
+                                    style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+                            <div id="dom_overlay_container"
+                                 style="pointer-events:none; overflow:hidden; width:700px; height:550px; position: absolute; left: 0px; top: 0px; display: block;">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+            <div id="foter">
+
+                <p>.کلیه حقوق معنوی این وب سایت متعلق به گروه نرم ناو افراز است</p>
+            </div>
+        </div>
+
+        <script src="js/swiper.min.js"></script>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                lazy: true,
+
+                speed: 600,
+                parallax: true,
+
+                // autoplay: {
+                //     delay: 5000,
+                //     disableOnInteraction: false,
+                // },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+    </body>
+</html>
